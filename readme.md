@@ -1,0 +1,1 @@
+To activate venv, type `source env/bin/activate` in console
