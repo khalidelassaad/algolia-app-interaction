@@ -1,4 +1,4 @@
-1. Setup, Config for CLI (apikey, appID)
+# 1. Set your working application with the CLI
 
 2. Simple task (generate an index scripting, use CLI to upload as an index)
 
