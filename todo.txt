@@ -1,0 +1,5 @@
+1. Setup, Config for CLI (apikey, appID)
+
+2. Simple task (generate an index scripting, use CLI to upload as an index)
+
+3. More complicated task (take a snapshot, modify rules, revert to snapshot)
