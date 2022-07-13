@@ -2,4 +2,5 @@
 
 # 2. Simple task - use CLI to upload "datatoindex.json" as an index)
 
-3. More complicated task (take a snapshot, modify rules, revert to snapshot)
+# 3. More complicated task - take a snapshot of an index’s settings,
+#    modify settings in the CLI, revert live version to settings from snapshot
