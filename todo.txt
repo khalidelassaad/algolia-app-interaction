@@ -1,5 +1,5 @@
 # 1. Set your working application with the CLI
 
-2. Simple task (generate an index scripting, use CLI to upload as an index)
+# 2. Simple task - use CLI to upload "datatoindex.json" as an index)
 
 3. More complicated task (take a snapshot, modify rules, revert to snapshot)
