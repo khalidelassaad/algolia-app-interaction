@@ -3,6 +3,7 @@ import random
 
 template_record = {
     "objectID": "{}",
+    "SKU": "{}",
     "name": "Product #{}",
     "image_url": "http://fakeurl.nope/{}",
     "price": "${}.{}",
@@ -14,6 +15,7 @@ def generate_x_records(x):
     for i in range(x):
         ith_record = template_record.copy()
         ith_record["objectID"] = ith_record["objectID"].format(i)
+        ith_record["SKU"] = ith_record["SKU"].format(i)
         ith_record["name"] = ith_record["name"].format(i)
         ith_record["image_url"] = ith_record["image_url"].format(i)
         ith_record["price"] = ith_record["price"].format(random.randint(0,100), random.randint(0,99))
